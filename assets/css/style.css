@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fcfade;
+    box-shadow: 8px 5px 5px #56704b;
+    height: 100px;
+    
+}
+
+header .logo img {
+    width: 200px;
+    padding: 5px;
+    margin-left: 30px;
+}
+
+
+header .logout{
+    margin-right: 40px;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+header .logout span{
+    font-size: 12px;
+}
+
+.containner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+}
+
+.containner .menu {
+  background-color: #000;
+  padding-right: 35px;
+  height: 600px;
+}
+
+nav ul li,
+nav ul li {
+    
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.menu nav a{
+    text-decoration: none;
+}
+
+
+.centro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: aqua;
+}
